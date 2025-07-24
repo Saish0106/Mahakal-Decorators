@@ -1,0 +1,74 @@
+/* Add here all your CSS customizations */
+.container{
+	width:92%!important
+}
+
+.pl-0 {
+    padding-left: 0px!important;
+}
+
+.para{
+	font-size: 19px!important;
+	font-weight:500;
+	text-align:justify;
+    line-height: 1.8!important;
+}
+
+.blink_me 
+{
+	  animation: blinker 1s linear infinite;
+}
+
+.page-header .toptitle{
+	color: #FFF;
+    display: inline-block;
+    font-weight: 200;
+    margin: 0 0 -25px;
+    min-height: 37px;
+    font-size: 2.6em;
+    line-height: 46px;
+    padding: 0 0 17px;
+    position: relative;
+}
+
+b, strong {    
+    font-size: 18px!important;
+}
+
+@keyframes blinker 
+{  
+	  50% { opacity: 0; }
+}
+
+.decors img{
+	width:99%;
+	margin:auto;
+	border:5px solid #FFFFFF;
+	
+	
+}
+.decors .desc{	
+	background-color:#FFFFFF;
+	margin-bottom:25px;
+	padding-bottom:15px;	
+}
+.decors .desc h3{
+	font-size: 10.5px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #001f64;
+	text-align: left;
+    padding-left: 15px;
+	margin-bottom:0px;
+}
+
+.decors .desc a{
+	font-size: 15px;
+    color: #ff6207;
+	text-align: left;
+    padding-left: 15px;
+}
+/*
+h4.heading-primary.mb-none {
+    height: 60px;
+}*/
